@@ -21,7 +21,7 @@ namespace WinfocusLearningApp.Controllers
         }
         public ActionResult AboutSamad()
         {
-            ViewBag.Message = "Your application description view. testing pushing";
+            ViewBag.Message = "Your application description view. testing from Mac";
 
             return View();
         }
