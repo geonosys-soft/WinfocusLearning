@@ -25,6 +25,12 @@ namespace WinfocusLearningApp.Controllers
 
             return View();
         }
+        public ActionResult AboutSujith()
+        {
+            ViewBag.Message = "Your application description view. testing pushing";
+
+            return View();
+        }
         public ActionResult About2()
         {
             ViewBag.Message = "Your application description view.";
