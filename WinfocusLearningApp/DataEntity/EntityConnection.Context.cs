@@ -13,10 +13,10 @@ namespace WinfocusLearningApp.DataEntity
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Winfocus_DbEntities : DbContext
+    public partial class Winfocus_CS : DbContext
     {
-        public Winfocus_DbEntities()
-            : base("name=Winfocus_DbEntities")
+        public Winfocus_CS()
+            : base("name=Winfocus_CS")
         {
         }
     
@@ -25,5 +25,9 @@ namespace WinfocusLearningApp.DataEntity
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<TblMaterial> TblMaterials { get; set; }
+        public virtual DbSet<UserRole> UserRoles { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }
