@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Samad\\OneDrive\\Desktop\\Project\\ASP\\WinfocusLearning\\",
+  "WorkspaceRootPath": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -14,10 +14,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
