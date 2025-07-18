@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\authentication\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\authentication\\customauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\authentication\\custommembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\authentication\\custommembership.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\authentication\\customprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\authentication\\customprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\authentication\\custommembershipuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\authentication\\custommembershipuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\models\\tblmaterialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\models\\tblmaterialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\views\\admin\\studymaterialtype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\admin\\studymaterialtype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +66,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Authentication\\CustomAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomAuthorizeAttribute.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Authentication\\CustomAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:14:52.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CustomMembership.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomMembership.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Authentication\\CustomMembership.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomMembership.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Authentication\\CustomMembership.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:07:00.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomPrincipal.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Authentication\\CustomPrincipal.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomPrincipal.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Authentication\\CustomPrincipal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:57:43.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomMembershipUser.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomMembershipUser.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Authentication\\CustomMembershipUser.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\CustomMembershipUser.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Authentication\\CustomMembershipUser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:04:42.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T04:20:50.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Web.config",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Web.config",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Web.config",
+              "RelativeToolTip": "WinfocusLearningApp\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-18T15:37:02.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Models\\LoginModel.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:33:36.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "WinfocusLearningApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T15:31:14.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T15:30:41.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
@@ -51,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\_ViewStart.cshtml",
@@ -64,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "TblMaterialModel.cs",
               "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Models\\TblMaterialModel.cs",
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Models\\TblMaterialModel.cs",
@@ -73,32 +218,6 @@
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T09:30:05.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T04:20:50.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudyMaterialType.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "RelativeToolTip": "WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwEEAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T09:10:19.226Z",
               "EditorCaption": ""
             }
           ]
