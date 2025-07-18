@@ -7,19 +7,251 @@
     <Property Name="RoleId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="RoleName" Type="nvarchar(max)" />
   </EntityType>
-  <EntityType Name="TblMaterial">
+  <EntityType Name="TblAccademicYear">
     <Key>
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="AccademicYear" Type="varchar" MaxLength="50" />
     <Property Name="CreatedBy" Type="int" Nullable="false" />
     <Property Name="CreatedDate" Type="date" Nullable="false" />
     <Property Name="IsDeleted" Type="int" Nullable="false" />
     <Property Name="DeletedDate" Type="date" Nullable="false" />
     <Property Name="ModifiedBy" Type="int" Nullable="false" />
     <Property Name="ModifiedTime" Type="date" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblCourse' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblCourse">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="GradeID" Type="int" />
+    <Property Name="StreamID" Type="int" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblFeeDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="FeeAmount" />
+      <PropertyRef Name="PaymentMode" />
+      <PropertyRef Name="ACID" />
+      <PropertyRef Name="SyllabusID" />
+      <PropertyRef Name="GradeId" />
+      <PropertyRef Name="StreamID" />
+      <PropertyRef Name="CourseID" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeeAmount" Type="int" Nullable="false" />
+    <Property Name="PaymentMode" Type="int" Nullable="false" />
+    <Property Name="ACID" Type="int" Nullable="false" />
+    <Property Name="SyllabusID" Type="int" Nullable="false" />
+    <Property Name="GradeId" Type="int" Nullable="false" />
+    <Property Name="StreamID" Type="int" Nullable="false" />
+    <Property Name="CourseID" Type="int" Nullable="false" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblGrade' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblGrade">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="TblMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="GradeID" Type="int" />
+    <Property Name="StreamID" Type="int" />
+    <Property Name="CourseID" Type="int" />
     <Property Name="SubjectId" Type="int" Nullable="false" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="date" Nullable="false" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="date" Nullable="false" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="date" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblNoteType' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblNoteType">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="GradeID" Type="int" />
+    <Property Name="StreamID" Type="int" />
+    <Property Name="CourseID" Type="int" />
+    <Property Name="SubjectID" Type="int" />
+    <Property Name="MaterialID" Type="int" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblRegistrationBatch' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblRegistrationBatch">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Batch" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Batch" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblRegistrationBatchTime' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblRegistrationBatchTime">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BatchTime" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchTime" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblStream' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblStream">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="GradeID" Type="int" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblSubject' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblSubject">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="GradeID" Type="int" />
+    <Property Name="StreamID" Type="int" />
+    <Property Name="CourseID" Type="int" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblSyllabus">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="CreatedBy" Type="int" Nullable="false" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" Nullable="false" />
+    <Property Name="DeletedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="int" Nullable="false" />
+    <Property Name="ModifiedTime" Type="datetime" />
+    <Property Name="Description" Type="varchar(max)" />
   </EntityType>
   <EntityType Name="UserRoles">
     <Key>
@@ -55,8 +287,154 @@
   </EntityType>
   <EntityContainer Name="Winfocus_DbModelStoreContainer">
     <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblAccademicYear" EntityType="Self.TblAccademicYear" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblMaterial" EntityType="Self.TblMaterial" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UserRoles" EntityType="Self.UserRoles" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblCourse" EntityType="Self.TblCourse" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblCourse].[Id] AS [Id], 
+    [TblCourse].[Name] AS [Name], 
+    [TblCourse].[ACID] AS [ACID], 
+    [TblCourse].[SyllabusID] AS [SyllabusID], 
+    [TblCourse].[GradeID] AS [GradeID], 
+    [TblCourse].[StreamID] AS [StreamID], 
+    [TblCourse].[CreatedBy] AS [CreatedBy], 
+    [TblCourse].[CreatedDate] AS [CreatedDate], 
+    [TblCourse].[IsDeleted] AS [IsDeleted], 
+    [TblCourse].[DeletedDate] AS [DeletedDate], 
+    [TblCourse].[ModifiedBy] AS [ModifiedBy], 
+    [TblCourse].[ModifiedTime] AS [ModifiedTime], 
+    [TblCourse].[Description] AS [Description]
+    FROM [dbo].[TblCourse] AS [TblCourse]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblFeeDetails" EntityType="Self.TblFeeDetails" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblFeeDetails].[Id] AS [Id], 
+    [TblFeeDetails].[FeeAmount] AS [FeeAmount], 
+    [TblFeeDetails].[PaymentMode] AS [PaymentMode], 
+    [TblFeeDetails].[ACID] AS [ACID], 
+    [TblFeeDetails].[SyllabusID] AS [SyllabusID], 
+    [TblFeeDetails].[GradeId] AS [GradeId], 
+    [TblFeeDetails].[StreamID] AS [StreamID], 
+    [TblFeeDetails].[CourseID] AS [CourseID], 
+    [TblFeeDetails].[CreatedBy] AS [CreatedBy], 
+    [TblFeeDetails].[CreatedDate] AS [CreatedDate], 
+    [TblFeeDetails].[IsDeleted] AS [IsDeleted], 
+    [TblFeeDetails].[DeletedDate] AS [DeletedDate], 
+    [TblFeeDetails].[ModifiedBy] AS [ModifiedBy], 
+    [TblFeeDetails].[ModifiedTime] AS [ModifiedTime], 
+    [TblFeeDetails].[Description] AS [Description]
+    FROM [dbo].[TblFeeDetails] AS [TblFeeDetails]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblGrade" EntityType="Self.TblGrade" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblGrade].[Id] AS [Id], 
+    [TblGrade].[Name] AS [Name], 
+    [TblGrade].[ACID] AS [ACID], 
+    [TblGrade].[SyllabusID] AS [SyllabusID], 
+    [TblGrade].[CreatedBy] AS [CreatedBy], 
+    [TblGrade].[CreatedDate] AS [CreatedDate], 
+    [TblGrade].[IsDeleted] AS [IsDeleted], 
+    [TblGrade].[DeletedDate] AS [DeletedDate], 
+    [TblGrade].[ModifiedBy] AS [ModifiedBy], 
+    [TblGrade].[ModifiedTime] AS [ModifiedTime], 
+    [TblGrade].[Description] AS [Description]
+    FROM [dbo].[TblGrade] AS [TblGrade]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblNoteType" EntityType="Self.TblNoteType" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblNoteType].[Id] AS [Id], 
+    [TblNoteType].[Name] AS [Name], 
+    [TblNoteType].[ACID] AS [ACID], 
+    [TblNoteType].[SyllabusID] AS [SyllabusID], 
+    [TblNoteType].[GradeID] AS [GradeID], 
+    [TblNoteType].[StreamID] AS [StreamID], 
+    [TblNoteType].[CourseID] AS [CourseID], 
+    [TblNoteType].[SubjectID] AS [SubjectID], 
+    [TblNoteType].[MaterialID] AS [MaterialID], 
+    [TblNoteType].[CreatedBy] AS [CreatedBy], 
+    [TblNoteType].[CreatedDate] AS [CreatedDate], 
+    [TblNoteType].[IsDeleted] AS [IsDeleted], 
+    [TblNoteType].[DeletedDate] AS [DeletedDate], 
+    [TblNoteType].[ModifiedBy] AS [ModifiedBy], 
+    [TblNoteType].[ModifiedTime] AS [ModifiedTime], 
+    [TblNoteType].[Description] AS [Description]
+    FROM [dbo].[TblNoteType] AS [TblNoteType]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblRegistrationBatch" EntityType="Self.TblRegistrationBatch" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblRegistrationBatch].[Id] AS [Id], 
+    [TblRegistrationBatch].[Batch] AS [Batch], 
+    [TblRegistrationBatch].[CreatedBy] AS [CreatedBy], 
+    [TblRegistrationBatch].[CreatedDate] AS [CreatedDate], 
+    [TblRegistrationBatch].[IsDeleted] AS [IsDeleted], 
+    [TblRegistrationBatch].[DeletedDate] AS [DeletedDate], 
+    [TblRegistrationBatch].[ModifiedBy] AS [ModifiedBy], 
+    [TblRegistrationBatch].[ModifiedTime] AS [ModifiedTime], 
+    [TblRegistrationBatch].[Description] AS [Description]
+    FROM [dbo].[TblRegistrationBatch] AS [TblRegistrationBatch]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblRegistrationBatchTime" EntityType="Self.TblRegistrationBatchTime" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblRegistrationBatchTime].[Id] AS [Id], 
+    [TblRegistrationBatchTime].[BatchTime] AS [BatchTime], 
+    [TblRegistrationBatchTime].[CreatedBy] AS [CreatedBy], 
+    [TblRegistrationBatchTime].[CreatedDate] AS [CreatedDate], 
+    [TblRegistrationBatchTime].[IsDeleted] AS [IsDeleted], 
+    [TblRegistrationBatchTime].[DeletedDate] AS [DeletedDate], 
+    [TblRegistrationBatchTime].[ModifiedBy] AS [ModifiedBy], 
+    [TblRegistrationBatchTime].[ModifiedTime] AS [ModifiedTime], 
+    [TblRegistrationBatchTime].[Description] AS [Description]
+    FROM [dbo].[TblRegistrationBatchTime] AS [TblRegistrationBatchTime]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblStream" EntityType="Self.TblStream" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblStream].[Id] AS [Id], 
+    [TblStream].[Name] AS [Name], 
+    [TblStream].[ACID] AS [ACID], 
+    [TblStream].[SyllabusID] AS [SyllabusID], 
+    [TblStream].[GradeID] AS [GradeID], 
+    [TblStream].[CreatedBy] AS [CreatedBy], 
+    [TblStream].[CreatedDate] AS [CreatedDate], 
+    [TblStream].[IsDeleted] AS [IsDeleted], 
+    [TblStream].[DeletedDate] AS [DeletedDate], 
+    [TblStream].[ModifiedBy] AS [ModifiedBy], 
+    [TblStream].[ModifiedTime] AS [ModifiedTime], 
+    [TblStream].[Description] AS [Description]
+    FROM [dbo].[TblStream] AS [TblStream]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblSubject" EntityType="Self.TblSubject" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblSubject].[Id] AS [Id], 
+    [TblSubject].[Name] AS [Name], 
+    [TblSubject].[ACID] AS [ACID], 
+    [TblSubject].[SyllabusID] AS [SyllabusID], 
+    [TblSubject].[GradeID] AS [GradeID], 
+    [TblSubject].[StreamID] AS [StreamID], 
+    [TblSubject].[CourseID] AS [CourseID], 
+    [TblSubject].[CreatedBy] AS [CreatedBy], 
+    [TblSubject].[CreatedDate] AS [CreatedDate], 
+    [TblSubject].[IsDeleted] AS [IsDeleted], 
+    [TblSubject].[DeletedDate] AS [DeletedDate], 
+    [TblSubject].[ModifiedBy] AS [ModifiedBy], 
+    [TblSubject].[ModifiedTime] AS [ModifiedTime], 
+    [TblSubject].[Description] AS [Description]
+    FROM [dbo].[TblSubject] AS [TblSubject]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblSyllabus" EntityType="Self.TblSyllabus" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblSyllabus].[Id] AS [Id], 
+    [TblSyllabus].[Name] AS [Name], 
+    [TblSyllabus].[ACID] AS [ACID], 
+    [TblSyllabus].[CreatedBy] AS [CreatedBy], 
+    [TblSyllabus].[CreatedDate] AS [CreatedDate], 
+    [TblSyllabus].[IsDeleted] AS [IsDeleted], 
+    [TblSyllabus].[DeletedDate] AS [DeletedDate], 
+    [TblSyllabus].[ModifiedBy] AS [ModifiedBy], 
+    [TblSyllabus].[ModifiedTime] AS [ModifiedTime], 
+    [TblSyllabus].[Description] AS [Description]
+    FROM [dbo].[TblSyllabus] AS [TblSyllabus]</DefiningQuery>
+    </EntitySet>
   </EntityContainer>
 </Schema>

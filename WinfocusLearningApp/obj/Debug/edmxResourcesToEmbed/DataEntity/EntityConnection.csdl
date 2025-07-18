@@ -7,20 +7,6 @@
     <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="RoleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
-  <EntityType Name="TblMaterial">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
-    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
-    <Property Name="DeletedDate" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
-    <Property Name="ModifiedTime" Type="DateTime" Nullable="false" Precision="0" />
-    <Property Name="SubjectId" Type="Int32" Nullable="false" />
-  </EntityType>
   <EntityType Name="UserRole">
     <Key>
       <PropertyRef Name="UserId" />
@@ -55,8 +41,246 @@
   </EntityType>
   <EntityContainer Name="Winfocus_CS" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Roles" EntityType="Self.Role" />
-    <EntitySet Name="TblMaterials" EntityType="Self.TblMaterial" />
     <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
     <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="TblAccademicYears" EntityType="Winfocus_DbModel.TblAccademicYear" />
+    <EntitySet Name="TblMaterials" EntityType="Winfocus_DbModel.TblMaterial" />
+    <EntitySet Name="TblCourses" EntityType="Winfocus_DbModel.TblCourse" />
+    <EntitySet Name="TblFeeDetails" EntityType="Winfocus_DbModel.TblFeeDetail" />
+    <EntitySet Name="TblGrades" EntityType="Winfocus_DbModel.TblGrade" />
+    <EntitySet Name="TblNoteTypes" EntityType="Winfocus_DbModel.TblNoteType" />
+    <EntitySet Name="TblRegistrationBatches" EntityType="Winfocus_DbModel.TblRegistrationBatch" />
+    <EntitySet Name="TblRegistrationBatchTimes" EntityType="Winfocus_DbModel.TblRegistrationBatchTime" />
+    <EntitySet Name="TblStreams" EntityType="Winfocus_DbModel.TblStream" />
+    <EntitySet Name="TblSubjects" EntityType="Winfocus_DbModel.TblSubject" />
+    <EntitySet Name="TblSyllabus" EntityType="Winfocus_DbModel.TblSyllabu" />
   </EntityContainer>
+  <EntityType Name="TblAccademicYear">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AccademicYear" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="TblMaterial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="SyllabusID" Type="Int32" />
+    <Property Name="GradeID" Type="Int32" />
+    <Property Name="StreamID" Type="Int32" />
+    <Property Name="CourseID" Type="Int32" />
+    <Property Name="SubjectId" Type="Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="TblCourse">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="SyllabusID" Type="Int32" />
+    <Property Name="GradeID" Type="Int32" />
+    <Property Name="StreamID" Type="Int32" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblFeeDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="FeeAmount" />
+      <PropertyRef Name="PaymentMode" />
+      <PropertyRef Name="ACID" />
+      <PropertyRef Name="SyllabusID" />
+      <PropertyRef Name="GradeId" />
+      <PropertyRef Name="StreamID" />
+      <PropertyRef Name="CourseID" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeeAmount" Type="Int32" Nullable="false" />
+    <Property Name="PaymentMode" Type="Int32" Nullable="false" />
+    <Property Name="ACID" Type="Int32" Nullable="false" />
+    <Property Name="SyllabusID" Type="Int32" Nullable="false" />
+    <Property Name="GradeId" Type="Int32" Nullable="false" />
+    <Property Name="StreamID" Type="Int32" Nullable="false" />
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblGrade">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="SyllabusID" Type="Int32" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblNoteType">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="SyllabusID" Type="Int32" />
+    <Property Name="GradeID" Type="Int32" />
+    <Property Name="StreamID" Type="Int32" />
+    <Property Name="CourseID" Type="Int32" />
+    <Property Name="SubjectID" Type="Int32" />
+    <Property Name="MaterialID" Type="Int32" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblRegistrationBatch">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Batch" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Batch" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblRegistrationBatchTime">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="BatchTime" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BatchTime" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblStream">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="SyllabusID" Type="Int32" />
+    <Property Name="GradeID" Type="Int32" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblSubject">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="SyllabusID" Type="Int32" />
+    <Property Name="GradeID" Type="Int32" />
+    <Property Name="StreamID" Type="Int32" />
+    <Property Name="CourseID" Type="Int32" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TblSyllabu">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="ModifiedBy" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ACID" Type="Int32" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Precision="3" />
+    <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
+    <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>

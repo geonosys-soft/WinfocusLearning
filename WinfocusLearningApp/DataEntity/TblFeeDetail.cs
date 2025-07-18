@@ -16,6 +16,7 @@ namespace WinfocusLearningApp.DataEntity
     {
         public int Id { get; set; }
         public int FeeAmount { get; set; }
+        public int Priority { get; set; }
         public int PaymentMode { get; set; }
         public int ACID { get; set; }
         public int SyllabusID { get; set; }
@@ -23,7 +24,7 @@ namespace WinfocusLearningApp.DataEntity
         public int StreamID { get; set; }
         public int CourseID { get; set; }
         public int CreatedBy { get; set; }
-        public Nullable<System.DateTime> CreatedDate { get; set; }
+        public System.DateTime CreatedDate { get; set; }
         public int IsDeleted { get; set; }
         public Nullable<System.DateTime> DeletedDate { get; set; }
         public int ModifiedBy { get; set; }

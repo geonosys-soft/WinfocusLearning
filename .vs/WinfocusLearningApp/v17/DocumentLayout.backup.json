@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\winfocuslearningapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\winfocuslearningapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\winfocuslearningapp\\dataentity\\entityconnection.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\dataentity\\entityconnection.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\models\\tblmaterialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\models\\tblmaterialmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|c:\\users\\samad\\desktop\\project\\winfocuslearning\\winfocuslearningapp\\views\\admin\\studymaterialtype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\admin\\studymaterialtype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T01:21:34.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T01:20:59.982Z"
             },
             {
               "$type": "Document",
@@ -71,18 +46,60 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T01:19:41.549Z"
+              "WhenOpened": "2025-07-18T09:50:07.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "WinfocusLearningApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T09:50:03.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EntityConnection.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\DataEntity\\EntityConnection.edmx",
-              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
-              "RelativeToolTip": "WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-07-18T01:18:01.306Z"
+              "Title": "TblMaterialModel.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Models\\TblMaterialModel.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Models\\TblMaterialModel.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Models\\TblMaterialModel.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Models\\TblMaterialModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:30:05.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T04:20:50.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudyMaterialType.cshtml",
+              "DocumentMoniker": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
+              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
+              "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
+              "RelativeToolTip": "WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T09:10:19.226Z",
+              "EditorCaption": ""
             }
           ]
         }

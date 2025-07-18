@@ -55,6 +55,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a pri
           <Key>
             <PropertyRef Name="Id" />
             <PropertyRef Name="FeeAmount" />
+            <PropertyRef Name="Priority" />
             <PropertyRef Name="PaymentMode" />
             <PropertyRef Name="ACID" />
             <PropertyRef Name="SyllabusID" />
@@ -62,11 +63,13 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a pri
             <PropertyRef Name="StreamID" />
             <PropertyRef Name="CourseID" />
             <PropertyRef Name="CreatedBy" />
+            <PropertyRef Name="CreatedDate" />
             <PropertyRef Name="IsDeleted" />
             <PropertyRef Name="ModifiedBy" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="FeeAmount" Type="int" Nullable="false" />
+          <Property Name="Priority" Type="int" Nullable="false" />
           <Property Name="PaymentMode" Type="int" Nullable="false" />
           <Property Name="ACID" Type="int" Nullable="false" />
           <Property Name="SyllabusID" Type="int" Nullable="false" />
@@ -74,7 +77,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a pri
           <Property Name="StreamID" Type="int" Nullable="false" />
           <Property Name="CourseID" Type="int" Nullable="false" />
           <Property Name="CreatedBy" Type="int" Nullable="false" />
-          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
           <Property Name="IsDeleted" Type="int" Nullable="false" />
           <Property Name="DeletedDate" Type="datetime" />
           <Property Name="ModifiedBy" Type="int" Nullable="false" />
@@ -212,6 +215,104 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblStream' does not have a primary
           <Property Name="ModifiedTime" Type="datetime" />
           <Property Name="Description" Type="varchar(max)" />
         </EntityType>
+        <EntityType Name="TblStudent_Fee_Payment_Details">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FeeID" Type="varchar" MaxLength="50" />
+          <Property Name="ACID" Type="int" />
+          <Property Name="SyllabusID" Type="int" />
+          <Property Name="GradeID" Type="int" />
+          <Property Name="StreamID" Type="int" />
+          <Property Name="CourseID" Type="int" />
+          <Property Name="PaymentMode" Type="int" />
+          <Property Name="TempStudId" Type="int" />
+          <Property Name="StudentId" Type="int" />
+          <Property Name="TotalAmount" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="TransactionNo" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="CreatedBy" Type="int" />
+          <Property Name="CreatedDt" Type="datetime" />
+          <Property Name="IsDeleted" Type="int" />
+          <Property Name="DeletedDt" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblStudent_Fee_receipt' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TblStudent_Fee_receipt">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FeeID" Type="varchar" MaxLength="50" />
+          <Property Name="StudentFeeID" Type="int" />
+          <Property Name="StudentId" Type="int" />
+          <Property Name="Amount" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="TransactionNo" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="PaymentDt" Type="datetime" />
+          <Property Name="CreatedBy" Type="int" />
+          <Property Name="CreatedDt" Type="datetime" />
+          <Property Name="IsDeleted" Type="int" />
+          <Property Name="DeletedDt" Type="datetime" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblStudent_Fee_Structure' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TblStudent_Fee_Structure">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FeeID" Type="varchar" MaxLength="50" />
+          <Property Name="StudentId" Type="int" />
+          <Property Name="Amount" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="PaymentStatus" Type="int" />
+          <Property Name="CreatedBy" Type="int" />
+          <Property Name="CreatedDt" Type="datetime" />
+          <Property Name="IsDeleted" Type="int" />
+          <Property Name="DeletedDt" Type="datetime" />
+        </EntityType>
+        <EntityType Name="TblStudent_Parent_Basic">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ParentName" Type="varchar" MaxLength="50" />
+          <Property Name="CompanyName" Type="varchar" MaxLength="50" />
+          <Property Name="Designation" Type="varchar" MaxLength="50" />
+          <Property Name="MobileNumber" Type="varchar" MaxLength="50" />
+          <Property Name="WhatsAppNumber" Type="varchar" MaxLength="50" />
+          <Property Name="BottimNumber" Type="varchar" MaxLength="50" />
+          <Property Name="HouseName" Type="varchar(max)" />
+          <Property Name="State" Type="varchar" MaxLength="50" />
+          <Property Name="Dstrict" Type="varchar" MaxLength="50" />
+          <Property Name="Place" Type="varchar" MaxLength="50" />
+          <Property Name="PO" Type="varchar" MaxLength="50" />
+          <Property Name="PIN" Type="varchar" MaxLength="50" />
+          <Property Name="RegId" Type="varchar" MaxLength="50" />
+          <Property Name="FatherSignature" Type="image" />
+          <Property Name="StudentSignature" Type="image" />
+        </EntityType>
+        <EntityType Name="TblSTudentBasicDetails">
+          <Key>
+            <PropertyRef Name="SID" />
+          </Key>
+          <Property Name="SID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="RegId" Type="varchar" MaxLength="50" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" />
+          <Property Name="MobileNumber" Type="varchar" MaxLength="50" />
+          <Property Name="WhatsApp" Type="varchar" MaxLength="50" />
+          <Property Name="EmailID" Type="varchar" MaxLength="50" />
+          <Property Name="MteamID" Type="varchar" MaxLength="50" />
+          <Property Name="Profile" Type="image" />
+          <Property Name="CreatedDt" Type="date" />
+          <Property Name="IsActive" Type="int" />
+          <Property Name="IsDeleted" Type="int" />
+          <Property Name="ProcessStage" Type="int" />
+          <Property Name="BOTIM" Type="varchar" MaxLength="50" />
+          <Property Name="VISA" Type="varchar" MaxLength="50" />
+          <Property Name="Gender" Type="int" />
+          <Property Name="DOB" Type="varchar" MaxLength="50" />
+        </EntityType>
         <!--Errors Found During Generation:
 warning 6002: The table/view 'Winfocus_Db.dbo.TblSubject' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TblSubject">
@@ -294,6 +395,9 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblAccademicYear" EntityType="Self.TblAccademicYear" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblMaterial" EntityType="Self.TblMaterial" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblStudent_Fee_Payment_Details" EntityType="Self.TblStudent_Fee_Payment_Details" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblStudent_Parent_Basic" EntityType="Self.TblStudent_Parent_Basic" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TblSTudentBasicDetails" EntityType="Self.TblSTudentBasicDetails" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="UserRoles" EntityType="Self.UserRoles" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TblCourse" EntityType="Self.TblCourse" store:Type="Tables" store:Schema="dbo">
@@ -317,6 +421,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
             <DefiningQuery>SELECT 
     [TblFeeDetails].[Id] AS [Id], 
     [TblFeeDetails].[FeeAmount] AS [FeeAmount], 
+    [TblFeeDetails].[Priority] AS [Priority], 
     [TblFeeDetails].[PaymentMode] AS [PaymentMode], 
     [TblFeeDetails].[ACID] AS [ACID], 
     [TblFeeDetails].[SyllabusID] AS [SyllabusID], 
@@ -409,6 +514,34 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
     [TblStream].[Description] AS [Description]
     FROM [dbo].[TblStream] AS [TblStream]</DefiningQuery>
           </EntitySet>
+          <EntitySet Name="TblStudent_Fee_receipt" EntityType="Self.TblStudent_Fee_receipt" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TblStudent_Fee_receipt].[Id] AS [Id], 
+    [TblStudent_Fee_receipt].[FeeID] AS [FeeID], 
+    [TblStudent_Fee_receipt].[StudentFeeID] AS [StudentFeeID], 
+    [TblStudent_Fee_receipt].[StudentId] AS [StudentId], 
+    [TblStudent_Fee_receipt].[Amount] AS [Amount], 
+    [TblStudent_Fee_receipt].[TransactionNo] AS [TransactionNo], 
+    [TblStudent_Fee_receipt].[PaymentDt] AS [PaymentDt], 
+    [TblStudent_Fee_receipt].[CreatedBy] AS [CreatedBy], 
+    [TblStudent_Fee_receipt].[CreatedDt] AS [CreatedDt], 
+    [TblStudent_Fee_receipt].[IsDeleted] AS [IsDeleted], 
+    [TblStudent_Fee_receipt].[DeletedDt] AS [DeletedDt]
+    FROM [dbo].[TblStudent_Fee_receipt] AS [TblStudent_Fee_receipt]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="TblStudent_Fee_Structure" EntityType="Self.TblStudent_Fee_Structure" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TblStudent_Fee_Structure].[Id] AS [Id], 
+    [TblStudent_Fee_Structure].[FeeID] AS [FeeID], 
+    [TblStudent_Fee_Structure].[StudentId] AS [StudentId], 
+    [TblStudent_Fee_Structure].[Amount] AS [Amount], 
+    [TblStudent_Fee_Structure].[PaymentStatus] AS [PaymentStatus], 
+    [TblStudent_Fee_Structure].[CreatedBy] AS [CreatedBy], 
+    [TblStudent_Fee_Structure].[CreatedDt] AS [CreatedDt], 
+    [TblStudent_Fee_Structure].[IsDeleted] AS [IsDeleted], 
+    [TblStudent_Fee_Structure].[DeletedDt] AS [DeletedDt]
+    FROM [dbo].[TblStudent_Fee_Structure] AS [TblStudent_Fee_Structure]</DefiningQuery>
+          </EntitySet>
           <EntitySet Name="TblSubject" EntityType="Self.TblSubject" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [TblSubject].[Id] AS [Id], 
@@ -491,6 +624,9 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <EntitySet Name="Users" EntityType="Self.User" />
           <EntitySet Name="TblAccademicYears" EntityType="Winfocus_DbModel.TblAccademicYear" />
           <EntitySet Name="TblMaterials" EntityType="Winfocus_DbModel.TblMaterial" />
+          <EntitySet Name="TblStudent_Fee_Payment_Details" EntityType="Winfocus_DbModel.TblStudent_Fee_Payment_Details" />
+          <EntitySet Name="TblStudent_Parent_Basic" EntityType="Winfocus_DbModel.TblStudent_Parent_Basic" />
+          <EntitySet Name="TblSTudentBasicDetails" EntityType="Winfocus_DbModel.TblSTudentBasicDetail" />
           <EntitySet Name="TblCourses" EntityType="Winfocus_DbModel.TblCourse" />
           <EntitySet Name="TblFeeDetails" EntityType="Winfocus_DbModel.TblFeeDetail" />
           <EntitySet Name="TblGrades" EntityType="Winfocus_DbModel.TblGrade" />
@@ -498,6 +634,8 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <EntitySet Name="TblRegistrationBatches" EntityType="Winfocus_DbModel.TblRegistrationBatch" />
           <EntitySet Name="TblRegistrationBatchTimes" EntityType="Winfocus_DbModel.TblRegistrationBatchTime" />
           <EntitySet Name="TblStreams" EntityType="Winfocus_DbModel.TblStream" />
+          <EntitySet Name="TblStudent_Fee_receipt" EntityType="Winfocus_DbModel.TblStudent_Fee_receipt" />
+          <EntitySet Name="TblStudent_Fee_Structure" EntityType="Winfocus_DbModel.TblStudent_Fee_Structure" />
           <EntitySet Name="TblSubjects" EntityType="Winfocus_DbModel.TblSubject" />
           <EntitySet Name="TblSyllabus" EntityType="Winfocus_DbModel.TblSyllabu" />
         </EntityContainer>
@@ -533,6 +671,70 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
           <Property Name="ModifiedTime" Type="DateTime" Nullable="false" Precision="0" />
         </EntityType>
+        <EntityType Name="TblStudent_Fee_Payment_Details">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FeeID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ACID" Type="Int32" />
+          <Property Name="SyllabusID" Type="Int32" />
+          <Property Name="GradeID" Type="Int32" />
+          <Property Name="StreamID" Type="Int32" />
+          <Property Name="CourseID" Type="Int32" />
+          <Property Name="PaymentMode" Type="Int32" />
+          <Property Name="TempStudId" Type="Int32" />
+          <Property Name="StudentId" Type="Int32" />
+          <Property Name="TotalAmount" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TransactionNo" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="CreatedBy" Type="Int32" />
+          <Property Name="CreatedDt" Type="DateTime" Precision="3" />
+          <Property Name="IsDeleted" Type="Int32" />
+          <Property Name="DeletedDt" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TblStudent_Parent_Basic">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ParentName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CompanyName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MobileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="WhatsAppNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BottimNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="HouseName" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="State" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Dstrict" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Place" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RegId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FatherSignature" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="StudentSignature" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="TblSTudentBasicDetail">
+          <Key>
+            <PropertyRef Name="SID" />
+          </Key>
+          <Property Name="SID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RegId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MobileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="WhatsApp" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="MteamID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Profile" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="CreatedDt" Type="DateTime" Precision="0" />
+          <Property Name="IsActive" Type="Int32" />
+          <Property Name="IsDeleted" Type="Int32" />
+          <Property Name="ProcessStage" Type="Int32" />
+          <Property Name="BOTIM" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="VISA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="Int32" />
+          <Property Name="DOB" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
         <EntityType Name="TblCourse">
           <Key>
             <PropertyRef Name="Id" />
@@ -559,6 +761,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <Key>
             <PropertyRef Name="Id" />
             <PropertyRef Name="FeeAmount" />
+            <PropertyRef Name="Priority" />
             <PropertyRef Name="PaymentMode" />
             <PropertyRef Name="ACID" />
             <PropertyRef Name="SyllabusID" />
@@ -566,11 +769,13 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
             <PropertyRef Name="StreamID" />
             <PropertyRef Name="CourseID" />
             <PropertyRef Name="CreatedBy" />
+            <PropertyRef Name="CreatedDate" />
             <PropertyRef Name="IsDeleted" />
             <PropertyRef Name="ModifiedBy" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="FeeAmount" Type="Int32" Nullable="false" />
+          <Property Name="Priority" Type="Int32" Nullable="false" />
           <Property Name="PaymentMode" Type="Int32" Nullable="false" />
           <Property Name="ACID" Type="Int32" Nullable="false" />
           <Property Name="SyllabusID" Type="Int32" Nullable="false" />
@@ -578,7 +783,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <Property Name="StreamID" Type="Int32" Nullable="false" />
           <Property Name="CourseID" Type="Int32" Nullable="false" />
           <Property Name="CreatedBy" Type="Int32" Nullable="false" />
-          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="IsDeleted" Type="Int32" Nullable="false" />
           <Property Name="DeletedDate" Type="DateTime" Precision="3" />
           <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
@@ -686,6 +891,36 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
           <Property Name="ModifiedBy" Type="Int32" Nullable="false" />
           <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
           <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TblStudent_Fee_receipt">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FeeID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="StudentFeeID" Type="Int32" />
+          <Property Name="StudentId" Type="Int32" />
+          <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="TransactionNo" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PaymentDt" Type="DateTime" Precision="3" />
+          <Property Name="CreatedBy" Type="Int32" />
+          <Property Name="CreatedDt" Type="DateTime" Precision="3" />
+          <Property Name="IsDeleted" Type="Int32" />
+          <Property Name="DeletedDt" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="TblStudent_Fee_Structure">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FeeID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="StudentId" Type="Int32" />
+          <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="PaymentStatus" Type="Int32" />
+          <Property Name="CreatedBy" Type="Int32" />
+          <Property Name="CreatedDt" Type="DateTime" Precision="3" />
+          <Property Name="IsDeleted" Type="Int32" />
+          <Property Name="DeletedDt" Type="DateTime" Precision="3" />
         </EntityType>
         <EntityType Name="TblSubject">
           <Key>
@@ -810,6 +1045,73 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="TblStudent_Fee_Payment_Details">
+            <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Fee_Payment_Details">
+              <MappingFragment StoreEntitySet="TblStudent_Fee_Payment_Details">
+                <ScalarProperty Name="DeletedDt" ColumnName="DeletedDt" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="TransactionNo" ColumnName="TransactionNo" />
+                <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="TempStudId" ColumnName="TempStudId" />
+                <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="StreamID" ColumnName="StreamID" />
+                <ScalarProperty Name="GradeID" ColumnName="GradeID" />
+                <ScalarProperty Name="SyllabusID" ColumnName="SyllabusID" />
+                <ScalarProperty Name="ACID" ColumnName="ACID" />
+                <ScalarProperty Name="FeeID" ColumnName="FeeID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblStudent_Parent_Basic">
+            <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Parent_Basic">
+              <MappingFragment StoreEntitySet="TblStudent_Parent_Basic">
+                <ScalarProperty Name="StudentSignature" ColumnName="StudentSignature" />
+                <ScalarProperty Name="FatherSignature" ColumnName="FatherSignature" />
+                <ScalarProperty Name="RegId" ColumnName="RegId" />
+                <ScalarProperty Name="PIN" ColumnName="PIN" />
+                <ScalarProperty Name="PO" ColumnName="PO" />
+                <ScalarProperty Name="Place" ColumnName="Place" />
+                <ScalarProperty Name="Dstrict" ColumnName="Dstrict" />
+                <ScalarProperty Name="State" ColumnName="State" />
+                <ScalarProperty Name="HouseName" ColumnName="HouseName" />
+                <ScalarProperty Name="BottimNumber" ColumnName="BottimNumber" />
+                <ScalarProperty Name="WhatsAppNumber" ColumnName="WhatsAppNumber" />
+                <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+                <ScalarProperty Name="Designation" ColumnName="Designation" />
+                <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+                <ScalarProperty Name="ParentName" ColumnName="ParentName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblSTudentBasicDetails">
+            <EntityTypeMapping TypeName="Winfocus_DbModel.TblSTudentBasicDetail">
+              <MappingFragment StoreEntitySet="TblSTudentBasicDetails">
+                <ScalarProperty Name="DOB" ColumnName="DOB" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="VISA" ColumnName="VISA" />
+                <ScalarProperty Name="BOTIM" ColumnName="BOTIM" />
+                <ScalarProperty Name="ProcessStage" ColumnName="ProcessStage" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+                <ScalarProperty Name="Profile" ColumnName="Profile" />
+                <ScalarProperty Name="MteamID" ColumnName="MteamID" />
+                <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+                <ScalarProperty Name="WhatsApp" ColumnName="WhatsApp" />
+                <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="RegId" ColumnName="RegId" />
+                <ScalarProperty Name="SID" ColumnName="SID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
           <EntitySetMapping Name="TblCourses">
             <EntityTypeMapping TypeName="Winfocus_DbModel.TblCourse">
               <MappingFragment StoreEntitySet="TblCourse">
@@ -845,6 +1147,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
                 <ScalarProperty Name="SyllabusID" ColumnName="SyllabusID" />
                 <ScalarProperty Name="ACID" ColumnName="ACID" />
                 <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
                 <ScalarProperty Name="FeeAmount" ColumnName="FeeAmount" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
@@ -933,6 +1236,38 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
                 <ScalarProperty Name="SyllabusID" ColumnName="SyllabusID" />
                 <ScalarProperty Name="ACID" ColumnName="ACID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblStudent_Fee_receipt">
+            <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Fee_receipt">
+              <MappingFragment StoreEntitySet="TblStudent_Fee_receipt">
+                <ScalarProperty Name="DeletedDt" ColumnName="DeletedDt" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="PaymentDt" ColumnName="PaymentDt" />
+                <ScalarProperty Name="TransactionNo" ColumnName="TransactionNo" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="StudentFeeID" ColumnName="StudentFeeID" />
+                <ScalarProperty Name="FeeID" ColumnName="FeeID" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TblStudent_Fee_Structure">
+            <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Fee_Structure">
+              <MappingFragment StoreEntitySet="TblStudent_Fee_Structure">
+                <ScalarProperty Name="DeletedDt" ColumnName="DeletedDt" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+                <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+                <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+                <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+                <ScalarProperty Name="FeeID" ColumnName="FeeID" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
