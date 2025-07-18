@@ -18,7 +18,11 @@ namespace WinfocusLearningApp.Controllers
         {
             return View();
         }
-        public async Task<ActionResult> StudyMaterialType(int?id)
+        public ActionResult AccademicYear()
+        {
+            return View();
+        }
+        public ActionResult StudyMaterialType(int? id)
         {
             DateTime indianTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, INDIANTIME);
             if (TempData["StatusMessage"] != null)
@@ -32,7 +36,7 @@ namespace WinfocusLearningApp.Controllers
             }
 
             TblMaterial inf = new TblMaterial();
-            
+
             if (id == null)
             {
 
@@ -52,5 +56,6 @@ namespace WinfocusLearningApp.Controllers
 
             return View(inf);
         }
+
     }
 }
