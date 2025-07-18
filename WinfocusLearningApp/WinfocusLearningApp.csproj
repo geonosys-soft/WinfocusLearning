@@ -143,25 +143,69 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DataEntity\DbModel.Context.cs">
+    <Compile Include="DataEntity\EntityConnection.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.Context.tt</DependentUpon>
+      <DependentUpon>EntityConnection.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="DataEntity\DbModel.cs">
+    <Compile Include="DataEntity\EntityConnection.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.tt</DependentUpon>
+      <DependentUpon>EntityConnection.tt</DependentUpon>
     </Compile>
-    <Compile Include="DataEntity\DbModel.Designer.cs">
+    <Compile Include="DataEntity\EntityConnection.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.edmx</DependentUpon>
+      <DependentUpon>EntityConnection.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\Role.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblAccademicYear.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblCourse.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblFeeDetail.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblGrade.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblMaterial.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblNoteType.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblRegistrationBatch.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblRegistrationBatchTime.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblStream.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblSubject.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\TblSyllabu.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\User.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DataEntity\UserRole.cs">
+      <DependentUpon>EntityConnection.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Authentication\MyRoleProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -181,15 +225,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="DataEntity\DbModel.Context.tt">
+    <Content Include="DataEntity\EntityConnection.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DbModel.edmx</DependentUpon>
-      <LastGenOutput>DbModel.Context.cs</LastGenOutput>
+      <DependentUpon>EntityConnection.edmx</DependentUpon>
+      <LastGenOutput>EntityConnection.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="DataEntity\DbModel.tt">
+    <Content Include="DataEntity\EntityConnection.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DbModel.edmx</DependentUpon>
-      <LastGenOutput>DbModel.cs</LastGenOutput>
+      <DependentUpon>EntityConnection.edmx</DependentUpon>
+      <LastGenOutput>EntityConnection.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -201,12 +245,12 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
-    <EntityDeploy Include="DataEntity\DbModel.edmx">
+    <EntityDeploy Include="DataEntity\EntityConnection.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DbModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>EntityConnection.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="DataEntity\DbModel.edmx.diagram">
-      <DependentUpon>DbModel.edmx</DependentUpon>
+    <Content Include="DataEntity\EntityConnection.edmx.diagram">
+      <DependentUpon>EntityConnection.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
@@ -233,6 +277,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Admin\StudyMaterialType.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

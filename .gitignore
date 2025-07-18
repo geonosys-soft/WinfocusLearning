@@ -1,6 +1,6 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
-
-/.vs/WinfocusLearningApp/FileContentIndex
+/.vs
 /.vs/WinfocusLearningApp/config/applicationhost.config
+/.vs/WinfocusLearningApp/FileContentIndex
