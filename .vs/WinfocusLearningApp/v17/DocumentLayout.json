@@ -26,15 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -44,10 +40,14 @@
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
               "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T01:21:34.196Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T01:20:59.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:20:59.982Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T01:19:41.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:19:41.549Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
               "RelativeToolTip": "WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-07-18T01:18:01.306Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-07-18T01:18:01.306Z"
             }
           ]
         }
