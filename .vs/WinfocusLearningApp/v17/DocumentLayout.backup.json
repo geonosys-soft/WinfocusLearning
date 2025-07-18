@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
               "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
               "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAlwBAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T01:21:34.196Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T01:20:59.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:20:59.982Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-18T01:19:41.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T01:19:41.549Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "ToolTip": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
               "RelativeToolTip": "WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-07-18T01:18:01.306Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-07-18T01:18:01.306Z"
             }
           ]
         }
