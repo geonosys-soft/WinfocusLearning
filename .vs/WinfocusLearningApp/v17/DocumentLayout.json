@@ -3,119 +3,119 @@
   "WorkspaceRootPath": "E:\\Git New\\WinfocusLearning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\academicyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\academicyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\academicyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\academicyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\managementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\complaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\complaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\complaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\supportticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\supportticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\supportticket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\timetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\timetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\timetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\addmeeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\addmeeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\addmeeting.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\syllabuscreation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\syllabuscreation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\syllabuscreation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\createlessonsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\createlessonsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\createlessonsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\studentreference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\studentreference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\studentreference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\requestcallback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\requestcallback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\requestcallback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\coursefee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\coursefee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\coursefee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\managegroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\managegroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\managegroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\creategroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\creategroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\creategroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\schooldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\schooldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\schooldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\district.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\district.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\district.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\schoolstate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\schoolstate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\schoolstate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\notetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\notetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\notetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\subchapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\subchapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\subchapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\chapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\chapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\chapter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\subject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\subject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\subject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\course.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\course.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\course.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\stream.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\stream.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\stream.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\classmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\classmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\classmanagement.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\createusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\views\\management\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\views\\management\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\views\\management\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|e:\\git new\\winfocuslearning\\winfocuslearningapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|E:\\Git New\\WinfocusLearning\\winfocuslearningapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89DA0F52-257A-4E7B-981A-3B21A226400F}|WinfocusLearningApp\\WinfocusLearningApp.csproj|solutionrelative:winfocuslearningapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -138,8 +138,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -150,8 +154,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Complaints.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:56.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:56.567Z"
             },
             {
               "$type": "Document",
@@ -163,8 +166,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\SupportTicket.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:49.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:49.469Z"
             },
             {
               "$type": "Document",
@@ -176,8 +178,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Blog.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:42.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:42.034Z"
             },
             {
               "$type": "Document",
@@ -189,8 +190,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\TimeTable.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:35.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:35.175Z"
             },
             {
               "$type": "Document",
@@ -202,8 +202,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\AddMeeting.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:28.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:28.441Z"
             },
             {
               "$type": "Document",
@@ -215,18 +214,17 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\SyllabusCreation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:19.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:19.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ManagementController.cs",
               "DocumentMoniker": "E:\\Git New\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\ManagementController.cs",
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\ManagementController.cs",
               "ToolTip": "E:\\Git New\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\ManagementController.cs",
               "RelativeToolTip": "WinfocusLearningApp\\Controllers\\ManagementController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwCoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T02:53:51.487Z",
               "EditorCaption": ""
@@ -246,13 +244,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "E:\\Git New\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\DashboardController.cs",
               "ToolTip": "E:\\Git New\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "WinfocusLearningApp\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T02:52:59.324Z",
               "EditorCaption": ""
@@ -267,8 +265,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\CreateLessonSummary.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:12.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:12.146Z"
             },
             {
               "$type": "Document",
@@ -280,8 +277,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\StudentReference.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:57:05.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:57:05.061Z"
             },
             {
               "$type": "Document",
@@ -293,8 +289,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\RequestCallBack.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:58.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:58.469Z"
             },
             {
               "$type": "Document",
@@ -306,8 +301,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\CourseFee.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:51.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:51.635Z"
             },
             {
               "$type": "Document",
@@ -319,8 +313,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\ManageGroup.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:44.4Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:44.4Z"
             },
             {
               "$type": "Document",
@@ -332,8 +325,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\CreateGroup.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:35.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:35.945Z"
             },
             {
               "$type": "Document",
@@ -345,8 +337,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\SchoolDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:29.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:29.055Z"
             },
             {
               "$type": "Document",
@@ -358,8 +349,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\District.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:19.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:19.681Z"
             },
             {
               "$type": "Document",
@@ -371,8 +361,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\SchoolState.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:12.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:12.31Z"
             },
             {
               "$type": "Document",
@@ -384,8 +373,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\NoteType.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:56:05.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:56:05.773Z"
             },
             {
               "$type": "Document",
@@ -397,8 +385,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Module.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:58.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:58.196Z"
             },
             {
               "$type": "Document",
@@ -410,8 +397,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\SubChapter.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:51.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:51.02Z"
             },
             {
               "$type": "Document",
@@ -423,8 +409,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Chapter.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:41.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:41.597Z"
             },
             {
               "$type": "Document",
@@ -436,8 +421,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Subject.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:33.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:33.911Z"
             },
             {
               "$type": "Document",
@@ -449,8 +433,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Course.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:24.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:24.634Z"
             },
             {
               "$type": "Document",
@@ -462,8 +445,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\Stream.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:17.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:17.391Z"
             },
             {
               "$type": "Document",
@@ -475,8 +457,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\ClassManagement.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:55:10.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:55:10.177Z"
             },
             {
               "$type": "Document",
@@ -488,8 +469,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\CreateUsers.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:54:53.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:54:53.252Z"
             },
             {
               "$type": "Document",
@@ -501,8 +481,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Views\\Management\\AllUsers.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-19T02:54:40.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T02:54:40.291Z"
             },
             {
               "$type": "Document",
@@ -550,8 +529,7 @@
               "RelativeToolTip": "WinfocusLearningApp\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T06:05:08.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T06:05:08.769Z"
             }
           ]
         }
