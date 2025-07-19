@@ -366,5 +366,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
-/.vs/WinfocusLearningApp/v17/DocumentLayout.backup.json
-/.vs/WinfocusLearningApp/v17/DocumentLayout.json
+.vs/WinfocusLearningApp/v17/DocumentLayout.backup.json
+.vs/WinfocusLearningApp/v17/DocumentLayout.json
+.vs
