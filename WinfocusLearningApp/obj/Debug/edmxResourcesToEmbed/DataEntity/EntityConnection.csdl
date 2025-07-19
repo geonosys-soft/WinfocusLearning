@@ -1,48 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Winfocus_DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-  <EntityType Name="Role">
-    <Key>
-      <PropertyRef Name="RoleId" />
-    </Key>
-    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="RoleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-  </EntityType>
-  <EntityType Name="UserRole">
-    <Key>
-      <PropertyRef Name="UserId" />
-      <PropertyRef Name="RoleId" />
-    </Key>
-    <Property Name="UserId" Type="Int32" Nullable="false" />
-    <Property Name="RoleId" Type="Int32" Nullable="false" />
-  </EntityType>
-  <EntityType Name="User">
-    <Key>
-      <PropertyRef Name="Id" />
-    </Key>
-    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
-    <Property Name="RoleId" Type="Int32" Nullable="false" />
-    <Property Name="IsActive" Type="Int32" Nullable="false" />
-    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
-    <Property Name="DeletedBy" Type="Int32" Nullable="false" />
-    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
-    <Property Name="DeletedDate" Type="DateTime" Nullable="false" Precision="3" />
-    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="MobileNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="ActivationCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
-    <Property Name="EmailVerify" Type="Int32" Nullable="false" />
-    <Property Name="Picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-    <Property Name="ResetPasswordCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
-  </EntityType>
   <EntityContainer Name="Winfocus_CS" annotation:LazyLoadingEnabled="true">
-    <EntitySet Name="Roles" EntityType="Self.Role" />
-    <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
-    <EntitySet Name="Users" EntityType="Self.User" />
     <EntitySet Name="TblAccademicYears" EntityType="Winfocus_DbModel.TblAccademicYear" />
     <EntitySet Name="TblMaterials" EntityType="Winfocus_DbModel.TblMaterial" />
     <EntitySet Name="TblStudent_Fee_Payment_Details" EntityType="Winfocus_DbModel.TblStudent_Fee_Payment_Details" />
@@ -59,6 +17,12 @@
     <EntitySet Name="TblStudent_Fee_Structure" EntityType="Winfocus_DbModel.TblStudent_Fee_Structure" />
     <EntitySet Name="TblSubjects" EntityType="Winfocus_DbModel.TblSubject" />
     <EntitySet Name="TblSyllabus" EntityType="Winfocus_DbModel.TblSyllabu" />
+    <EntitySet Name="Roles" EntityType="Winfocus_DbModel.Role" />
+    <EntitySet Name="Users" EntityType="Winfocus_DbModel.User" />
+    <AssociationSet Name="UserRoles" Association="Winfocus_DbModel.UserRoles">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="TblAccademicYear">
     <Key>
@@ -385,4 +349,41 @@
     <Property Name="ModifiedTime" Type="DateTime" Precision="3" />
     <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
   </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="RoleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Winfocus_DbModel.UserRoles" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Int32" Nullable="false" />
+    <Property Name="IsDeleted" Type="Int32" Nullable="false" />
+    <Property Name="DeletedBy" Type="Int32" Nullable="false" />
+    <Property Name="CreatedBy" Type="Int32" Nullable="false" />
+    <Property Name="DeletedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UniqueID" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MobileNo" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ActivationCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="EmailVerify" Type="Int32" Nullable="false" />
+    <Property Name="Picture" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ResetPasswordCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Roles" Relationship="Winfocus_DbModel.UserRoles" FromRole="User" ToRole="Role" />
+  </EntityType>
+  <Association Name="UserRoles">
+    <End Type="Winfocus_DbModel.Role" Role="Role" Multiplicity="*" />
+    <End Type="Winfocus_DbModel.User" Role="User" Multiplicity="*" />
+  </Association>
 </Schema>

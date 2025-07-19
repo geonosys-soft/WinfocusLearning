@@ -5,9 +5,6 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="e8a0fe495ee64dd4903a85a54c70a7b7" Name="Diagram1">
-        <EntityTypeShape EntityType="Winfocus_DbModel.Role" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Winfocus_DbModel.UserRole" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="Winfocus_DbModel.User" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Winfocus_DbModel.TblAccademicYear" Width="1.5" PointX="3.75" PointY="3.75" />
         <EntityTypeShape EntityType="Winfocus_DbModel.TblMaterial" Width="1.5" PointX="5.75" PointY="3.75" />
         <EntityTypeShape EntityType="Winfocus_DbModel.TblStudent_Fee_Payment_Details" Width="1.5" PointX="7.75" PointY="0.75" />
@@ -24,6 +21,9 @@
         <EntityTypeShape EntityType="Winfocus_DbModel.TblStudent_Fee_Structure" Width="1.5" PointX="11.75" PointY="9.75" />
         <EntityTypeShape EntityType="Winfocus_DbModel.TblSubject" Width="1.5" PointX="13.75" PointY="0.75" />
         <EntityTypeShape EntityType="Winfocus_DbModel.TblSyllabu" Width="1.5" PointX="13.75" PointY="5.75" />
+        <EntityTypeShape EntityType="Winfocus_DbModel.Role" Width="1.5" PointX="12.375" PointY="15.75" />
+        <EntityTypeShape EntityType="Winfocus_DbModel.User" Width="1.5" PointX="14.625" PointY="14.125" />
+        <AssociationConnector Association="Winfocus_DbModel.UserRoles" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

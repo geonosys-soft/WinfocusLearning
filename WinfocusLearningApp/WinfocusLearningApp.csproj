@@ -213,9 +213,6 @@
     <Compile Include="DataEntity\User.cs">
       <DependentUpon>EntityConnection.tt</DependentUpon>
     </Compile>
-    <Compile Include="DataEntity\UserRole.cs">
-      <DependentUpon>EntityConnection.tt</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

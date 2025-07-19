@@ -25,9 +25,6 @@ namespace WinfocusLearningApp.DataEntity
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Role> Roles { get; set; }
-        public virtual DbSet<UserRole> UserRoles { get; set; }
-        public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<TblAccademicYear> TblAccademicYears { get; set; }
         public virtual DbSet<TblMaterial> TblMaterials { get; set; }
         public virtual DbSet<TblStudent_Fee_Payment_Details> TblStudent_Fee_Payment_Details { get; set; }
@@ -44,5 +41,7 @@ namespace WinfocusLearningApp.DataEntity
         public virtual DbSet<TblStudent_Fee_Structure> TblStudent_Fee_Structure { get; set; }
         public virtual DbSet<TblSubject> TblSubjects { get; set; }
         public virtual DbSet<TblSyllabu> TblSyllabus { get; set; }
+        public virtual DbSet<Role> Roles { get; set; }
+        public virtual DbSet<User> Users { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace WinfocusLearningApp.Authentication
             UserId = user.Id;
             FirstName = user.FirstName;
             LastName = user.LastName;
-            Roles = user.RoleId;
+            Roles = user.Roles;
             IsActive = user.IsActive;
         }
     }
