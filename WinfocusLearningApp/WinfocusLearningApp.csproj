@@ -260,7 +260,6 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
     <EntityDeploy Include="DataEntity\EntityConnection.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>EntityConnection.Designer.cs</LastGenOutput>
@@ -268,6 +267,7 @@
     <Content Include="DataEntity\EntityConnection.edmx.diagram">
       <DependentUpon>EntityConnection.edmx</DependentUpon>
     </Content>
+    <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

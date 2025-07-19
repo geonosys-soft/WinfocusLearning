@@ -50,6 +50,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a pri
     <Key>
       <PropertyRef Name="Id" />
       <PropertyRef Name="FeeAmount" />
+      <PropertyRef Name="Priority" />
       <PropertyRef Name="PaymentMode" />
       <PropertyRef Name="ACID" />
       <PropertyRef Name="SyllabusID" />
@@ -57,11 +58,13 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a pri
       <PropertyRef Name="StreamID" />
       <PropertyRef Name="CourseID" />
       <PropertyRef Name="CreatedBy" />
+      <PropertyRef Name="CreatedDate" />
       <PropertyRef Name="IsDeleted" />
       <PropertyRef Name="ModifiedBy" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="FeeAmount" Type="int" Nullable="false" />
+    <Property Name="Priority" Type="int" Nullable="false" />
     <Property Name="PaymentMode" Type="int" Nullable="false" />
     <Property Name="ACID" Type="int" Nullable="false" />
     <Property Name="SyllabusID" Type="int" Nullable="false" />
@@ -69,7 +72,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblFeeDetails' does not have a pri
     <Property Name="StreamID" Type="int" Nullable="false" />
     <Property Name="CourseID" Type="int" Nullable="false" />
     <Property Name="CreatedBy" Type="int" Nullable="false" />
-    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="CreatedDate" Type="datetime" Nullable="false" />
     <Property Name="IsDeleted" Type="int" Nullable="false" />
     <Property Name="DeletedDate" Type="datetime" />
     <Property Name="ModifiedBy" Type="int" Nullable="false" />
@@ -207,6 +210,104 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblStream' does not have a primary
     <Property Name="ModifiedTime" Type="datetime" />
     <Property Name="Description" Type="varchar(max)" />
   </EntityType>
+  <EntityType Name="TblStudent_Fee_Payment_Details">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeeID" Type="varchar" MaxLength="50" />
+    <Property Name="ACID" Type="int" />
+    <Property Name="SyllabusID" Type="int" />
+    <Property Name="GradeID" Type="int" />
+    <Property Name="StreamID" Type="int" />
+    <Property Name="CourseID" Type="int" />
+    <Property Name="PaymentMode" Type="int" />
+    <Property Name="TempStudId" Type="int" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="TotalAmount" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="TransactionNo" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedDt" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" />
+    <Property Name="DeletedDt" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblStudent_Fee_receipt' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblStudent_Fee_receipt">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeeID" Type="varchar" MaxLength="50" />
+    <Property Name="StudentFeeID" Type="int" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="Amount" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="TransactionNo" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="PaymentDt" Type="datetime" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedDt" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" />
+    <Property Name="DeletedDt" Type="datetime" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Winfocus_Db.dbo.TblStudent_Fee_Structure' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TblStudent_Fee_Structure">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FeeID" Type="varchar" MaxLength="50" />
+    <Property Name="StudentId" Type="int" />
+    <Property Name="Amount" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="PaymentStatus" Type="int" />
+    <Property Name="CreatedBy" Type="int" />
+    <Property Name="CreatedDt" Type="datetime" />
+    <Property Name="IsDeleted" Type="int" />
+    <Property Name="DeletedDt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TblStudent_Parent_Basic">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentName" Type="varchar" MaxLength="50" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="50" />
+    <Property Name="Designation" Type="varchar" MaxLength="50" />
+    <Property Name="MobileNumber" Type="varchar" MaxLength="50" />
+    <Property Name="WhatsAppNumber" Type="varchar" MaxLength="50" />
+    <Property Name="BottimNumber" Type="varchar" MaxLength="50" />
+    <Property Name="HouseName" Type="varchar(max)" />
+    <Property Name="State" Type="varchar" MaxLength="50" />
+    <Property Name="Dstrict" Type="varchar" MaxLength="50" />
+    <Property Name="Place" Type="varchar" MaxLength="50" />
+    <Property Name="PO" Type="varchar" MaxLength="50" />
+    <Property Name="PIN" Type="varchar" MaxLength="50" />
+    <Property Name="RegId" Type="varchar" MaxLength="50" />
+    <Property Name="FatherSignature" Type="image" />
+    <Property Name="StudentSignature" Type="image" />
+  </EntityType>
+  <EntityType Name="TblSTudentBasicDetails">
+    <Key>
+      <PropertyRef Name="SID" />
+    </Key>
+    <Property Name="SID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RegId" Type="varchar" MaxLength="50" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" />
+    <Property Name="MobileNumber" Type="varchar" MaxLength="50" />
+    <Property Name="WhatsApp" Type="varchar" MaxLength="50" />
+    <Property Name="EmailID" Type="varchar" MaxLength="50" />
+    <Property Name="MteamID" Type="varchar" MaxLength="50" />
+    <Property Name="Profile" Type="image" />
+    <Property Name="CreatedDt" Type="date" />
+    <Property Name="IsActive" Type="int" />
+    <Property Name="IsDeleted" Type="int" />
+    <Property Name="ProcessStage" Type="int" />
+    <Property Name="BOTIM" Type="varchar" MaxLength="50" />
+    <Property Name="VISA" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="int" />
+    <Property Name="DOB" Type="varchar" MaxLength="50" />
+  </EntityType>
   <!--Errors Found During Generation:
 warning 6002: The table/view 'Winfocus_Db.dbo.TblSubject' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="TblSubject">
@@ -289,6 +390,9 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
     <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblAccademicYear" EntityType="Self.TblAccademicYear" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblMaterial" EntityType="Self.TblMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblStudent_Fee_Payment_Details" EntityType="Self.TblStudent_Fee_Payment_Details" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblStudent_Parent_Basic" EntityType="Self.TblStudent_Parent_Basic" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TblSTudentBasicDetails" EntityType="Self.TblSTudentBasicDetails" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="UserRoles" EntityType="Self.UserRoles" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="TblCourse" EntityType="Self.TblCourse" store:Type="Tables" store:Schema="dbo">
@@ -312,6 +416,7 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
       <DefiningQuery>SELECT 
     [TblFeeDetails].[Id] AS [Id], 
     [TblFeeDetails].[FeeAmount] AS [FeeAmount], 
+    [TblFeeDetails].[Priority] AS [Priority], 
     [TblFeeDetails].[PaymentMode] AS [PaymentMode], 
     [TblFeeDetails].[ACID] AS [ACID], 
     [TblFeeDetails].[SyllabusID] AS [SyllabusID], 
@@ -403,6 +508,34 @@ warning 6002: The table/view 'Winfocus_Db.dbo.TblSyllabus' does not have a prima
     [TblStream].[ModifiedTime] AS [ModifiedTime], 
     [TblStream].[Description] AS [Description]
     FROM [dbo].[TblStream] AS [TblStream]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblStudent_Fee_receipt" EntityType="Self.TblStudent_Fee_receipt" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblStudent_Fee_receipt].[Id] AS [Id], 
+    [TblStudent_Fee_receipt].[FeeID] AS [FeeID], 
+    [TblStudent_Fee_receipt].[StudentFeeID] AS [StudentFeeID], 
+    [TblStudent_Fee_receipt].[StudentId] AS [StudentId], 
+    [TblStudent_Fee_receipt].[Amount] AS [Amount], 
+    [TblStudent_Fee_receipt].[TransactionNo] AS [TransactionNo], 
+    [TblStudent_Fee_receipt].[PaymentDt] AS [PaymentDt], 
+    [TblStudent_Fee_receipt].[CreatedBy] AS [CreatedBy], 
+    [TblStudent_Fee_receipt].[CreatedDt] AS [CreatedDt], 
+    [TblStudent_Fee_receipt].[IsDeleted] AS [IsDeleted], 
+    [TblStudent_Fee_receipt].[DeletedDt] AS [DeletedDt]
+    FROM [dbo].[TblStudent_Fee_receipt] AS [TblStudent_Fee_receipt]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TblStudent_Fee_Structure" EntityType="Self.TblStudent_Fee_Structure" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TblStudent_Fee_Structure].[Id] AS [Id], 
+    [TblStudent_Fee_Structure].[FeeID] AS [FeeID], 
+    [TblStudent_Fee_Structure].[StudentId] AS [StudentId], 
+    [TblStudent_Fee_Structure].[Amount] AS [Amount], 
+    [TblStudent_Fee_Structure].[PaymentStatus] AS [PaymentStatus], 
+    [TblStudent_Fee_Structure].[CreatedBy] AS [CreatedBy], 
+    [TblStudent_Fee_Structure].[CreatedDt] AS [CreatedDt], 
+    [TblStudent_Fee_Structure].[IsDeleted] AS [IsDeleted], 
+    [TblStudent_Fee_Structure].[DeletedDt] AS [DeletedDt]
+    FROM [dbo].[TblStudent_Fee_Structure] AS [TblStudent_Fee_Structure]</DefiningQuery>
     </EntitySet>
     <EntitySet Name="TblSubject" EntityType="Self.TblSubject" store:Type="Tables" store:Schema="dbo">
       <DefiningQuery>SELECT 

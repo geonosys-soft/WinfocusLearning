@@ -76,6 +76,73 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TblStudent_Fee_Payment_Details">
+      <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Fee_Payment_Details">
+        <MappingFragment StoreEntitySet="TblStudent_Fee_Payment_Details">
+          <ScalarProperty Name="DeletedDt" ColumnName="DeletedDt" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="TransactionNo" ColumnName="TransactionNo" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="TempStudId" ColumnName="TempStudId" />
+          <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="StreamID" ColumnName="StreamID" />
+          <ScalarProperty Name="GradeID" ColumnName="GradeID" />
+          <ScalarProperty Name="SyllabusID" ColumnName="SyllabusID" />
+          <ScalarProperty Name="ACID" ColumnName="ACID" />
+          <ScalarProperty Name="FeeID" ColumnName="FeeID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStudent_Parent_Basic">
+      <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Parent_Basic">
+        <MappingFragment StoreEntitySet="TblStudent_Parent_Basic">
+          <ScalarProperty Name="StudentSignature" ColumnName="StudentSignature" />
+          <ScalarProperty Name="FatherSignature" ColumnName="FatherSignature" />
+          <ScalarProperty Name="RegId" ColumnName="RegId" />
+          <ScalarProperty Name="PIN" ColumnName="PIN" />
+          <ScalarProperty Name="PO" ColumnName="PO" />
+          <ScalarProperty Name="Place" ColumnName="Place" />
+          <ScalarProperty Name="Dstrict" ColumnName="Dstrict" />
+          <ScalarProperty Name="State" ColumnName="State" />
+          <ScalarProperty Name="HouseName" ColumnName="HouseName" />
+          <ScalarProperty Name="BottimNumber" ColumnName="BottimNumber" />
+          <ScalarProperty Name="WhatsAppNumber" ColumnName="WhatsAppNumber" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="ParentName" ColumnName="ParentName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblSTudentBasicDetails">
+      <EntityTypeMapping TypeName="Winfocus_DbModel.TblSTudentBasicDetail">
+        <MappingFragment StoreEntitySet="TblSTudentBasicDetails">
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="VISA" ColumnName="VISA" />
+          <ScalarProperty Name="BOTIM" ColumnName="BOTIM" />
+          <ScalarProperty Name="ProcessStage" ColumnName="ProcessStage" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+          <ScalarProperty Name="Profile" ColumnName="Profile" />
+          <ScalarProperty Name="MteamID" ColumnName="MteamID" />
+          <ScalarProperty Name="EmailID" ColumnName="EmailID" />
+          <ScalarProperty Name="WhatsApp" ColumnName="WhatsApp" />
+          <ScalarProperty Name="MobileNumber" ColumnName="MobileNumber" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="RegId" ColumnName="RegId" />
+          <ScalarProperty Name="SID" ColumnName="SID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="TblCourses">
       <EntityTypeMapping TypeName="Winfocus_DbModel.TblCourse">
         <MappingFragment StoreEntitySet="TblCourse">
@@ -111,6 +178,7 @@
           <ScalarProperty Name="SyllabusID" ColumnName="SyllabusID" />
           <ScalarProperty Name="ACID" ColumnName="ACID" />
           <ScalarProperty Name="PaymentMode" ColumnName="PaymentMode" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
           <ScalarProperty Name="FeeAmount" ColumnName="FeeAmount" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
@@ -199,6 +267,38 @@
           <ScalarProperty Name="SyllabusID" ColumnName="SyllabusID" />
           <ScalarProperty Name="ACID" ColumnName="ACID" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStudent_Fee_receipt">
+      <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Fee_receipt">
+        <MappingFragment StoreEntitySet="TblStudent_Fee_receipt">
+          <ScalarProperty Name="DeletedDt" ColumnName="DeletedDt" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="PaymentDt" ColumnName="PaymentDt" />
+          <ScalarProperty Name="TransactionNo" ColumnName="TransactionNo" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="StudentFeeID" ColumnName="StudentFeeID" />
+          <ScalarProperty Name="FeeID" ColumnName="FeeID" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStudent_Fee_Structure">
+      <EntityTypeMapping TypeName="Winfocus_DbModel.TblStudent_Fee_Structure">
+        <MappingFragment StoreEntitySet="TblStudent_Fee_Structure">
+          <ScalarProperty Name="DeletedDt" ColumnName="DeletedDt" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="CreatedDt" ColumnName="CreatedDt" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="PaymentStatus" ColumnName="PaymentStatus" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <ScalarProperty Name="FeeID" ColumnName="FeeID" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
