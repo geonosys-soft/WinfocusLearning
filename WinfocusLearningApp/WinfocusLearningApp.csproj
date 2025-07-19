@@ -146,21 +146,6 @@
     <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManagementController.cs" />
-    <Compile Include="DataEntity\DbModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DataEntity\DbModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DataEntity\DbModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DbModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -183,16 +168,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="DataEntity\DbModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DbModel.edmx</DependentUpon>
-      <LastGenOutput>DbModel.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="DataEntity\DbModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DbModel.edmx</DependentUpon>
-      <LastGenOutput>DbModel.cs</LastGenOutput>
-    </Content>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -203,13 +178,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\Dashboard\Index.cshtml" />
-    <EntityDeploy Include="DataEntity\DbModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DbModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="DataEntity\DbModel.edmx.diagram">
-      <DependentUpon>DbModel.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -271,6 +239,7 @@
     <Folder Include="Areas\Teacher\Controllers\" />
     <Folder Include="Areas\Teacher\Models\" />
     <Folder Include="Areas\Teacher\Views\" />
+    <Folder Include="DataEntity\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Dashboard\" />
   </ItemGroup>
