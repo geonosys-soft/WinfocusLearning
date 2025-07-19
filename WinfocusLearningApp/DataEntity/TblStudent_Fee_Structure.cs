@@ -12,18 +12,16 @@ namespace WinfocusLearningApp.DataEntity
     using System;
     using System.Collections.Generic;
     
-    public partial class Role
+    public partial class TblStudent_Fee_Structure
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Role()
-        {
-            this.Users = new HashSet<User>();
-        }
-    
-        public int RoleId { get; set; }
-        public string RoleName { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<User> Users { get; set; }
+        public int Id { get; set; }
+        public string FeeID { get; set; }
+        public Nullable<int> StudentId { get; set; }
+        public Nullable<decimal> Amount { get; set; }
+        public Nullable<int> PaymentStatus { get; set; }
+        public Nullable<int> CreatedBy { get; set; }
+        public Nullable<System.DateTime> CreatedDt { get; set; }
+        public Nullable<int> IsDeleted { get; set; }
+        public Nullable<System.DateTime> DeletedDt { get; set; }
     }
 }

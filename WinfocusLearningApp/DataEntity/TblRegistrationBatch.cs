@@ -12,9 +12,16 @@ namespace WinfocusLearningApp.DataEntity
     using System;
     using System.Collections.Generic;
     
-    public partial class UserRole
+    public partial class TblRegistrationBatch
     {
-        public int UserId { get; set; }
-        public int RoleId { get; set; }
+        public int Id { get; set; }
+        public string Batch { get; set; }
+        public int CreatedBy { get; set; }
+        public Nullable<System.DateTime> CreatedDate { get; set; }
+        public int IsDeleted { get; set; }
+        public Nullable<System.DateTime> DeletedDate { get; set; }
+        public int ModifiedBy { get; set; }
+        public Nullable<System.DateTime> ModifiedTime { get; set; }
+        public string Description { get; set; }
     }
 }

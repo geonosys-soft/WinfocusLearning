@@ -10,5 +10,6 @@ namespace WinfocusLearningApp.Areas.Admin.Controllers
             // Add logic to fetch dashboard data from your database
             return View();
         }
+        
     }
 }

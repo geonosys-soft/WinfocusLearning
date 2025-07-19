@@ -12,16 +12,10 @@ namespace WinfocusLearningApp.DataEntity
     using System;
     using System.Collections.Generic;
     
-    public partial class TblMaterial
+    public partial class TblAccademicYear
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public Nullable<int> ACID { get; set; }
-        public Nullable<int> SyllabusID { get; set; }
-        public Nullable<int> GradeID { get; set; }
-        public Nullable<int> StreamID { get; set; }
-        public Nullable<int> CourseID { get; set; }
-        public int SubjectId { get; set; }
+        public string AccademicYear { get; set; }
         public int CreatedBy { get; set; }
         public System.DateTime CreatedDate { get; set; }
         public int IsDeleted { get; set; }
