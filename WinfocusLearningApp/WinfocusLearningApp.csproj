@@ -143,7 +143,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\Controllers\DashboardController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManagementController.cs" />
     <Compile Include="DataEntity\DbModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -233,6 +235,32 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Management\AllUsers.cshtml" />
+    <Content Include="Views\Management\CreateUsers.cshtml" />
+    <Content Include="Views\Management\AcademicYear.cshtml" />
+    <Content Include="Views\Management\ClassManagement.cshtml" />
+    <Content Include="Views\Management\Stream.cshtml" />
+    <Content Include="Views\Management\Course.cshtml" />
+    <Content Include="Views\Management\Subject.cshtml" />
+    <Content Include="Views\Management\Chapter.cshtml" />
+    <Content Include="Views\Management\SubChapter.cshtml" />
+    <Content Include="Views\Management\Module.cshtml" />
+    <Content Include="Views\Management\NoteType.cshtml" />
+    <Content Include="Views\Management\SchoolState.cshtml" />
+    <Content Include="Views\Management\District.cshtml" />
+    <Content Include="Views\Management\SchoolDetails.cshtml" />
+    <Content Include="Views\Management\CreateGroup.cshtml" />
+    <Content Include="Views\Management\ManageGroup.cshtml" />
+    <Content Include="Views\Management\CourseFee.cshtml" />
+    <Content Include="Views\Management\RequestCallBack.cshtml" />
+    <Content Include="Views\Management\StudentReference.cshtml" />
+    <Content Include="Views\Management\CreateLessonSummary.cshtml" />
+    <Content Include="Views\Management\SyllabusCreation.cshtml" />
+    <Content Include="Views\Management\AddMeeting.cshtml" />
+    <Content Include="Views\Management\TimeTable.cshtml" />
+    <Content Include="Views\Management\Blog.cshtml" />
+    <Content Include="Views\Management\SupportTicket.cshtml" />
+    <Content Include="Views\Management\Complaints.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -244,6 +272,7 @@
     <Folder Include="Areas\Teacher\Models\" />
     <Folder Include="Areas\Teacher\Views\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Dashboard\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
