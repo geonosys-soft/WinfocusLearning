@@ -1,32 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinfocusLearningApp\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\MyRoleProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinfocusLearningApp\\Authentication\\MyRoleProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinfocusLearningApp\\DataEntity\\EntityConnection.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinfocusLearningApp\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Samad\\Desktop\\Project\\WinfocusLearning\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,88 +17,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WinfocusLearningApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-17T03:23:45.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyRoleProvider.cs",
-              "DocumentMoniker": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\MyRoleProvider.cs",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Authentication\\MyRoleProvider.cs",
-              "ToolTip": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Authentication\\MyRoleProvider.cs",
-              "RelativeToolTip": "WinfocusLearningApp\\Authentication\\MyRoleProvider.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T13:43:59.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EntityConnection.edmx [Diagram1]",
-              "DocumentMoniker": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\DataEntity\\EntityConnection.edmx",
-              "ToolTip": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
-              "RelativeToolTip": "WinfocusLearningApp\\DataEntity\\EntityConnection.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-07-16T13:43:01.047Z",
-              "EditorCaption": " [Diagram1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Web.config",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Web.config",
-              "ToolTip": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Web.config",
-              "RelativeToolTip": "WinfocusLearningApp\\Web.config",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFoAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-16T13:37:54.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudyMaterialType.cshtml",
-              "DocumentMoniker": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "ToolTip": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "RelativeToolTip": "WinfocusLearningApp\\Views\\Admin\\StudyMaterialType.cshtml",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJYAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-16T10:03:48.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ToolTip": "D:\\Projects\\Git\\WinfocusLearningApp\\WinfocusLearning\\WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "WinfocusLearningApp\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAoAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T10:02:43.399Z",
-              "EditorCaption": ""
             }
           ]
         }
